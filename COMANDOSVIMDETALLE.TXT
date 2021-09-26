@@ -1,0 +1,77 @@
+Este es el documento de texto creado con Git
+Comandos realizados
+touch //Crear un documento
+vim // Editar un documento
+ls // Mostrar los documentos dentro de la carpeta en que se ejecuta
+
+Una ves se instala GIT
+https://git-scm.com/downloads
+
+se ejecuta Git bash en la carpeta que se desea trabajar
+Luego se ejecutan comandos VIM
+
+Leer el siguiente texto.
+
+Comandos Vim con detalle
+Comandos Vim con detalle
+
+En este curso vamos a estar utilizando comandos Vim para editar nuestros ficheros mediante la Terminal, no obstante, estos procesos también serán realizados con Visual Studio Code (VSC), de esta manera, aprenderemos a operar en todo momento desde la terminal y a trabajar como auténticos expertos.
+
+A continuación se han recogido un conjunto de comandos de Vim.
+
+Modo comando
+
+Cuando abrimos un archivo para editar con Vim, algo que conseguimos desde el terminal con el comando vim seguido del nombre del archivo que se desea editar.
+
+1.  vim mi_archivo.txt
+
+Una vez abierto Vim, se inicia en modo comando.
+
+El modo comando permite realizar gran cantidad de acciones administrativas sobre el fichero, como buscar en el texto, salir, guardar, borrar líneas, etc.
+
+Modo inserción
+
+El modo inserción nos sirve cuando queremos editar el texto del archivo, añadiendo nuevo contenido con el teclado, o borrando carácter a carácter con las correspondientes teclas (Retroceso/Supr).
+
+Estando en modo comando, pasamos a modo inserción pulsando la tecla i. A partir de entonces el editor funcionará tal y como se esperaría en un editor de texto. Es decir, escribes cualquier cosa y se va introduciendo el texto en el archivo.
+
+Para salir del modo inserción y volver al modo comando pulsamos la tecla escape Esc.
+
+Guía esencial de Vim
+
+Ahora veamos los comandos más útiles y necesarios para que nuestros primeros pasos con Vim sean más llevaderos. Recuerda que estos comandos los tienes que escribir en modo comando y no en modo inserción.
+
+Para algunos de estos comandos es necesario pulsar la tecla Enter para que realmente se ejecuten. En este caso, los comandos aparecerán en la parte de abajo del terminal, para que veamos qué es lo que se va a ejecutar.
+
+Guardar y cerrar
+
+:w – Permite guardar el fichero.
+:q – Salir de Vim. Si el fichero ha sido modificado pero no se ha guardado, nos advertirá y no podremos salir de Vim usando este comando.
+:q! – Salir de Vim, descartando posibles cambios no guardados que se hayan realizado en el fichero.
+:wq – Hace el guardado del archivo y después sale de Vim.
+Deshacer y rehacer
+
+u – Deshacer acción.
+Ctrl+r – Rehacer una acción.
+Moverse por el fichero
+
+Además de usar los cursores para movernos por el archivo, podemos movernos de una manera más rápida con algunos comandos:
+
+gg – Ponerse al inicio del fichero.
+Mayús+g – Ir a la última línea del fichero.
+Num+G – Ir a una línea determinada. Por ejemplo 14G llevaría el cursor a la línea 14.
+:set number – Hace que el editor muestre el número de las líneas.
+$ – Ir al final de la línea.
+0 – Ir al principio de la línea.
+Borrar líneas
+
+dd – El comando permite borrar la línea actual, donde está el cursor.
+d+num – Este comando permite borrar un número de líneas. Por ejemplo, d3 borrará tres líneas.
+Buscar
+
+Vim tiene unas herramientas muy potentes para buscar texto en los archivos. Los comandos más útiles son los siguientes:
+
+/+texto – Al pulsar «/» se abre la función de búsqueda. Entonces podremos escribir el texto que queremos buscar. El editor resaltará todas las apariciones de este texto. Pulsamos enter y nos llevará a la siguiente aparición de la búsqueda, con respecto a la posición de nuestro cursor.
+n y N – Una vez hemos aceptada una búsqueda, el comando n nos lleva a la siguiente aparición de la cadena buscada. El comando N nos llevará a la anterior.
+
+p
