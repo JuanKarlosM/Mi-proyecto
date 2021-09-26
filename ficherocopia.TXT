@@ -1,0 +1,5 @@
+Este es el documento de texto creado con Git
+Comandos realizados
+touch //Crear un documento
+vim // Editar un documento
+ls // Mostrar los documentos dentro de la carpeta en que se ejecuta
